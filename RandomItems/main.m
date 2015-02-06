@@ -7,11 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Item.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        // Create a mutable array object, store its address in items variable
+        NSMutableArray *items = [[NSMutableArray alloc] init];
+        
+        for(int i=0; i<10; i++){
+            Item *item = [Item randomItem];
+            [items addObject:item];
+        }
+        
+        for(Item *item in items){
+            NSLog(@"%@", item);
+        }
+        
+        // Destroy the mutable array object
+        items = nil;
     }
     return 0;
 }
