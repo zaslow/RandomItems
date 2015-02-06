@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		38DEAE491A8312BA00E1B7B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEAE481A8312BA00E1B7B7 /* main.m */; };
 		38DEAE511A83FE8600E1B7B7 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEAE501A83FE8500E1B7B7 /* Item.m */; };
+		38DEAE571A847FC900E1B7B7 /* Container.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEAE561A847FC900E1B7B7 /* Container.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		38DEAE481A8312BA00E1B7B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38DEAE4F1A83FE8500E1B7B7 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		38DEAE501A83FE8500E1B7B7 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		38DEAE551A847FC900E1B7B7 /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Container.h; path = ../Container.h; sourceTree = "<group>"; };
+		38DEAE561A847FC900E1B7B7 /* Container.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Container.m; path = ../Container.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		38DEAE471A8312BA00E1B7B7 /* RandomItems */ = {
 			isa = PBXGroup;
 			children = (
+				38DEAE551A847FC900E1B7B7 /* Container.h */,
+				38DEAE561A847FC900E1B7B7 /* Container.m */,
 				38DEAE481A8312BA00E1B7B7 /* main.m */,
 				38DEAE4F1A83FE8500E1B7B7 /* Item.h */,
 				38DEAE501A83FE8500E1B7B7 /* Item.m */,
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38DEAE571A847FC900E1B7B7 /* Container.m in Sources */,
 				38DEAE511A83FE8600E1B7B7 /* Item.m in Sources */,
 				38DEAE491A8312BA00E1B7B7 /* main.m in Sources */,
 			);
