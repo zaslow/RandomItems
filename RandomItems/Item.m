@@ -37,6 +37,12 @@
                      serialNumber:@""];
 }
 
+- (id) initWithItemName:(NSString *)name
+           serialNumber:(NSString *)serNumber{
+    return [self initWithItemName:name
+                     serialNumber:serNumber];
+}
+
 - (instancetype)init{
     return [self initWithItemName:@"Item"];
 }
