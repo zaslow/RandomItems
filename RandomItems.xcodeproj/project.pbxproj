@@ -64,8 +64,9 @@
 				38DEAE4F1A83FE8500E1B7B7 /* Item.h */,
 				38DEAE501A83FE8500E1B7B7 /* Item.m */,
 			);
-			path = RandomItems;
-			sourceTree = "<group>";
+			name = RandomItems;
+			path = "/Users/cgornall/Documents/DeanIS1073/Assn_2:Ch_2/RandomItems/RandomItems";
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -238,6 +239,7 @@
 				38DEAE4E1A8312BB00E1B7B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
